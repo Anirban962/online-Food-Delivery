@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	height: 100%;
+	padding: 0;
+}
+
+.header{
+	background-color: #6c757d99;
+	height: 12%;
+	width: auto;
+	position: relative;
+	left: 0;
+	top: 0;	
+}
+.header img{
+	position: absolute;
+	left: 30px;
+	top: 3.3px;
+	height: 69px;
+	width: 69px;
+	border: none;
+	border-radius: 50%;
+}
+.header > div{
+	position: absolute;
+	top: -3px;
+	margin-left: 104px;
+	padding-top: 10px; 
+	font-size: 40px;
+	font-family: 'Fraunces', serif;
+	text-decoration: underline;
+}
+.nav-right ul{
+	position: absolute;
+	display: flex;
+	list-style-type: none;
+	left: 500px;
+}
+.nav-right li a{
+	text-decoration: none;
+	margin: 20px;
+	padding: 20px;
+	color: red;
+	font-size: 30px;
+	font-family: 'Fraunces', serif;
+	text-shadow: 2px 2px 4px powderblue;
+}
+.nav-right a:hover{
+	text-decoration: underline;
+	text-decoration-color: cyan;
+}
+.carousel{
+	position: relative;
+	bottom: 0px;
+	width: auto;
+	height: 500px;
+}
+.carousel span{
+	position: absolute;
+	color: white;
+	font-size: 50px;
+	top: 160px;
+	left: 220px;
+	font-family: 'Fraunces', serif;
+	text-shadow: 3px 3px 5px black;
+	letter-spacing: 5px;
+}
+.about,.deliver,.press,.contact{
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about{
+	background-image: url("about.jpg");
+	min-height: 70%;
+}
+.deliver{
+	background-image: url("deliver.jpg");
+	min-height: 400px;
+}
+.press{
+	background-image: url("press.jpg");
+	min-height: 500px;
+}
+.contact{
+	background-image: url("contact.jpg");
+	min-height: 400px;
+}
+.caption{
+	position: absolute;
+	left: 0;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	color: red;
+	text-shadow: 3px 3px 7px black;
+	font-weight: bold;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+p{
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 25px;
+	text-shadow: 3px 3px 5px black;
+}
+/*footer seciton*/
+#footer{
+	position: relative;
+	top: 230px;
+	bottom: 0px;
+	height: 25px;
+	width: 100%;
+	background-color: #65564ef5;
+	color: white;
+	text-align: center;
+	font-family: 'Fraunces', serif;
+}
